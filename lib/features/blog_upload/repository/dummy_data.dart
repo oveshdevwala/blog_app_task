@@ -1,10 +1,12 @@
 final dummyBlogData = [
   {
     "id": 1,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/1',
     "title": "How to Build a Successful Blog",
     "author": "Tim Burton",
     'image': 'https://picsum.photos/id/10/300/200',
     "date_published": "2022-01-19",
+
     'summary':
         'Building a successful blog takes time, effort, and dedication. It\'s not just about writing',
     "content":
@@ -12,6 +14,7 @@ final dummyBlogData = [
   },
   {
     "id": 2,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/2',
     "title": "The Importance of Self-Care for Bloggers",
     "author": "Mary Smith",
     "date_published": "2022-01-12",
@@ -23,6 +26,7 @@ final dummyBlogData = [
   },
   {
     "id": 3,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/3',
     "title": "Maximizing Engagement on Your Blog",
     "author": "John Seele",
     "date_published": "2022-01-05",
@@ -34,6 +38,7 @@ final dummyBlogData = [
   },
   {
     "id": 4,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/4',
     "title": "How to Monetize Your Blog",
     "author": "Jane Smith",
     "date_published": "2022-02-03",
@@ -45,6 +50,7 @@ final dummyBlogData = [
   },
   {
     "id": 5,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/5',
     "title": "Effective Blogging Strategies for Beginners",
     "author": "Peter Wright",
     "date_published": "2022-02-10",
@@ -56,6 +62,7 @@ final dummyBlogData = [
   },
   {
     "id": 6,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/6',
     "title": "The Power of Visual Content in Blogging",
     "author": "James Brown",
     "date_published": "2022-02-17",
@@ -67,6 +74,7 @@ final dummyBlogData = [
   },
   {
     "id": 7,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/7',
     "title": "Harnessing Social Media for Blog Growth",
     "author": "Peter Mc. Donald",
     "date_published": "2022-02-24",
@@ -78,6 +86,7 @@ final dummyBlogData = [
   },
   {
     "id": 8,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/8',
     "title": "The Role of SEO in Successful Blogging",
     "author": "Janet Smithey",
     'image': 'https://picsum.photos/id/18/300/200',
@@ -89,6 +98,7 @@ final dummyBlogData = [
   },
   {
     "id": 9,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/9',
     "title": "Guest Blogging: Benefits and Best Practices",
     "author": "Elon R. Musk",
     'image': 'https://picsum.photos/id/19/300/200',
@@ -100,6 +110,7 @@ final dummyBlogData = [
   },
   {
     "id": 10,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/10',
     "title": "Understanding Your Blog Analytics",
     'image': 'https://picsum.photos/id/20/300/200',
     "author": "Peter Wollanskyi",
@@ -111,6 +122,7 @@ final dummyBlogData = [
   },
   {
     "id": 11,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/11',
     "title": "Crafting Compelling Headlines for Your Blog Posts",
     "author": "Emily Turner",
     'image': 'https://picsum.photos/id/21/300/200',
@@ -122,6 +134,7 @@ final dummyBlogData = [
   },
   {
     "id": 12,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/12',
     "title": "Balancing Personal and Professional Voice on Your Blog",
     "author": "Michael Brown",
     "date_published": "2022-04-01",
@@ -133,6 +146,7 @@ final dummyBlogData = [
   },
   {
     "id": 13,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/13',
     "title": "The Importance of Consistency in Blogging",
     "author": "Alex Johnson",
     "date_published": "2022-04-08",
@@ -144,6 +158,7 @@ final dummyBlogData = [
   },
   {
     "id": 14,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/14',
     "title": "Leveraging Interviews to Enhance Your Blog Content",
     "author": "Sophia Carter",
     "date_published": "2022-04-15",
@@ -155,6 +170,7 @@ final dummyBlogData = [
   },
   {
     "id": 15,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/15',
     "title": "Understanding Affiliate Marketing for Bloggers",
     "author": "Emily Turner",
     "date_published": "2022-04-22",
@@ -166,6 +182,7 @@ final dummyBlogData = [
   },
   {
     "id": 16,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/16',
     "title": "The Power of Networking in Blogging",
     "author": "Michael Brown",
     'image': 'https://picsum.photos/id/25/300/200',
@@ -177,6 +194,7 @@ final dummyBlogData = [
   },
   {
     "id": 17,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/17',
     "title": "Navigating the Challenges of Blog SEO",
     "author": "Alex Johnson",
     'image': 'https://picsum.photos/id/26/300/200',
@@ -188,6 +206,7 @@ final dummyBlogData = [
   },
   {
     "id": 18,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/18',
     "title": "Creating Evergreen Content for Your Blog",
     "author": "Sophia Carter",
     'image': 'https://picsum.photos/id/27/300/200',
@@ -199,6 +218,7 @@ final dummyBlogData = [
   },
   {
     "id": 19,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/19',
     "title": "Utilizing User-Generated Content on Your Blog",
     "author": "Emily Turner",
     'image': 'https://picsum.photos/id/29/300/200',
@@ -210,6 +230,7 @@ final dummyBlogData = [
   },
   {
     "id": 20,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/20',
     "title": "The Role of Email Marketing in Blogging",
     "author": "Michael Brown",
     "date_published": "2022-05-27",
@@ -221,6 +242,7 @@ final dummyBlogData = [
   },
   {
     "id": 21,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/21',
     "title": "Maximizing SEO Strategies for Your Website",
     "author": "Samantha Lee",
     "date_published": "2022-06-10",
@@ -231,6 +253,7 @@ final dummyBlogData = [
   },
   {
     "id": 22,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/22',
     "title": "The Impact of Social Media on Brand Recognition",
     "author": "John Doe",
     "date_published": "2022-07-05",
@@ -242,6 +265,7 @@ final dummyBlogData = [
   },
   {
     "id": 23,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/23',
     "title": "Innovative Web Design Trends for 2023",
     "author": "Alex Johnson",
     "date_published": "2022-08-12",
@@ -253,6 +277,7 @@ final dummyBlogData = [
   },
   {
     "id": 24,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/24',
     "title": "Understanding User Experience (UX) Design",
     "author": "Emily Wong",
     "date_published": "2022-09-20",
@@ -264,6 +289,7 @@ final dummyBlogData = [
   },
   {
     "id": 25,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/25',
     "title": "Leveraging Data Analytics for Business Growth",
     "author": "Mohamed Patel",
     'image': 'https://picsum.photos/id/34/300/200',
@@ -275,6 +301,7 @@ final dummyBlogData = [
   },
   {
     "id": 26,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/26',
     "title": "Effective Content Marketing Strategies",
     "author": "Laura Chen",
     "date_published": "2022-11-03",
@@ -286,6 +313,7 @@ final dummyBlogData = [
   },
   {
     "id": 27,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/27',
     "title": "The Essentials of E-commerce Success",
     "author": "Raj Singh",
     'summary':
@@ -297,6 +325,7 @@ final dummyBlogData = [
   },
   {
     "id": 28,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/28',
     "title": "The Future of Digital Marketing",
     "author": "Isabella Garcia",
     "date_published": "2023-01-17",
@@ -308,6 +337,7 @@ final dummyBlogData = [
   },
   {
     "id": 29,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/29',
     "title": "Building a Sustainable Business Model",
     "author": "Kevin Smith",
     "date_published": "2023-02-28",
@@ -319,6 +349,7 @@ final dummyBlogData = [
   },
   {
     "id": 30,
+    'deeplink':'https://blog-app-task-4e492.web.app/blog/30',
     "title": "Cybersecurity Best Practices for Small Businesses",
     "author": "Natalie Kim",
     "date_published": "2023-03-15",

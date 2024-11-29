@@ -1,3 +1,3 @@
 export 'common/common.dart';
 export 'theme/theme.dart';
-export 'services/services.dart';
+export '../features/app/services/services.dart';

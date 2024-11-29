@@ -13,6 +13,8 @@ class BlogModel {
   final String? content;
   final String? image;
   final String? summary;
+  final String? deeplink;
+
   BlogModel(
     this.id,
     this.title,
@@ -21,6 +23,7 @@ class BlogModel {
     this.content,
     this.image,
     this.summary,
+    this.deeplink,
   );
 
   factory BlogModel.fromJson(Map<String, dynamic> json) =>

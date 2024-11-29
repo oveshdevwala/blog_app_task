@@ -119,9 +119,7 @@ class _ReadMoreButton extends StatelessWidget {
           width: 70.w,
           height: 30.h,
           child: FilledButton(
-              onPressed: () {
-                Navigator.push(context, BlogDetailsView.route(blog));
-              },
+              onPressed: () => Navigator.push(context, BlogDetailsView.route(blog)),
               child: const FittedBox(child: Text('Read More'))),
         ));
   }

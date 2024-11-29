@@ -12,7 +12,10 @@ class BlogRepository {
   Future<List<BlogModel>> getAllBlogs() async {
     List<BlogModel> blogs = [];
     try {
-      final res = await firebaseFirestore.collection('blogs').get();
+      final res = await firebaseFirestore
+          .collection('blogs')
+          .orderBy('id', descending: false)
+          .get();
 
       for (var each in res.docs) {
         blogs.add(BlogModel.fromJson(each.data()));
@@ -36,7 +39,6 @@ class BlogRepository {
           .where('id', isEqualTo: id)
           .get();
       blogs = BlogModel.fromJson(res.docs.first.data());
- 
     } on FirebaseException catch (e) {
       debugPrint(' FirebaseException Error :${e.message}\nCode: ${e.message}');
     } on SocketException catch (e) {

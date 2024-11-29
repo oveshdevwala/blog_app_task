@@ -40,9 +40,8 @@ class BlogBloc extends Bloc<BlogEvent, BlogState> {
 
   FutureOr<void> _fetchBlogsById(
       BlogFetchByIdEvents event, Emitter<BlogState> emit) async {
-    // emit(state.copyWith(status: BlogStatus.loading));
+
     try {
-      print('Bloc is Fetching To Blog with Id');
       final blog = await _blogRepository.getBlogById(event.id);
       emit(state.copyWith(status: BlogStatus.success, deepLinkblog: blog,isDeepLink: true));
     } on FirebaseException catch (e) {

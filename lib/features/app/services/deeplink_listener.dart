@@ -32,7 +32,7 @@ class _DeepLinkListenerState extends State<DeepLinkListener> {
         final id = uri.pathSegments.last;
         final blogId = int.parse(id);
         debugPrint('blogId: $blogId');
-        context.read<BlogBloc>().add(BlogFetchByIdEvents(blogId));
+        if(mounted) context.read<BlogBloc>().add(BlogFetchByIdEvents(blogId));
       }
     });
   }

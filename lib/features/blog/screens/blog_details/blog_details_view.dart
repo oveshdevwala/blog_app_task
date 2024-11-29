@@ -1,10 +1,12 @@
-import 'package:blog_app_task/core/common/common.dart';
-import 'package:blog_app_task/core/theme/theme.dart';
+// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-// ignore: must_be_immutable
+import 'package:blog_app_task/core/common/common.dart';
+import 'package:blog_app_task/core/theme/theme.dart';
+
 class BlogDetailsView extends StatelessWidget {
   const BlogDetailsView({
     super.key,
@@ -19,7 +21,6 @@ class BlogDetailsView extends StatelessWidget {
     return Scaffold(
       body: CustomScrollView(
         slivers: [
-          // SliverAppBar with the image
           SliverAppBar(
             leading: IconButton(
                 onPressed: () {
@@ -77,6 +78,42 @@ class BlogDetailsView extends StatelessWidget {
               ),
             ),
           ),
+        ],
+      ),
+      floatingActionButton: _CopyURl(
+        url: blog.deeplink!,
+      ),
+    );
+  }
+}
+
+class _CopyURl extends StatelessWidget {
+  const _CopyURl({
+    required this.url,
+  });
+  final String url;
+
+  @override
+  Widget build(BuildContext context) {
+    return OutlinedButton(
+      onPressed: () {
+        Clipboard.setData(ClipboardData(text: url.toString()));
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('URL copied to clipboard')),
+        );
+      },
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Text(
+            'Share Post',
+            style: TextStyle(
+              fontSize: 16.sp,
+              color: Colors.blue,
+            ),
+          ),
+          10.horizontalSpace,
+          Icon(Icons.copy, color: Colors.grey[600]),
         ],
       ),
     );

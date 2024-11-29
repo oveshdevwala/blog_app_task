@@ -14,6 +14,7 @@ BlogModel _$BlogModelFromJson(Map<String, dynamic> json) => BlogModel(
       json['content'] as String?,
       json['image'] as String?,
       json['summary'] as String?,
+      json['deeplink'] as String?,
     );
 
 Map<String, dynamic> _$BlogModelToJson(BlogModel instance) => <String, dynamic>{
@@ -24,4 +25,5 @@ Map<String, dynamic> _$BlogModelToJson(BlogModel instance) => <String, dynamic>{
       'content': instance.content,
       'image': instance.image,
       'summary': instance.summary,
+      'deeplink': instance.deeplink,
     };
