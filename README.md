@@ -104,32 +104,6 @@ blog-app/
 - **`features/blog`**: Handles all blog-related functionality.
 - **`core/theme`**: Contains the app's theme settings.
 
----
-
-## 📑 Assumptions
-1. Blogs have unique IDs stored as integers in Firestore.
-2. Firestore rules allow read access for this demo.
-3. The app is designed for mobile devices.
-
----
-
-## 💡 Additional Features
-- Copyable deep links in blog details.
-- Snackbar for URL copy confirmation.
-- Error handling for invalid or missing blog data.
-
----
-
-## 📋 Testing the App
-- **Deep Link Scenarios**:
-  - Valid links navigate to the correct blog.
-  - Invalid links show error feedback.
-  - Generic blog URL opens the main blog list.
-
-- **Firestore Data Validation**:
-  - Ensure Firestore data matches the schema defined above.
-
----
 
 ## 🏗️ State Management
 This project uses **Bloc** for state management:
