@@ -62,7 +62,7 @@ Here are some sample deep link URLs for testing:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/oveshdevwala/blog_app_task.git
    ```
 2. Navigate to the project folder:
    ```bash
