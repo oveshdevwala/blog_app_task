@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/2a3263af-d6f7-452e-bbec-571b4d062669)# Blog App with Firebase and Deep Linking
+# Blog App with Firebase and Deep Linking
 
 This Flutter project demonstrates a blog application with the following features:
 - Fetching blog posts from **Firebase Cloud Firestore**.
