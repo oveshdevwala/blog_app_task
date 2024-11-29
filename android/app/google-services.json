@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "7355723931",
+    "project_id": "blog-app-task-4e492",
+    "storage_bucket": "blog-app-task-4e492.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7355723931:android:e77bddbb367b36a58d563e",
+        "android_client_info": {
+          "package_name": "com.devwala.blog_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ77gF0U4E2YxAUvuenYohwNRzRIO5p_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

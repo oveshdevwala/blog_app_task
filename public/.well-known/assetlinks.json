@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.devwala.blog_app",
+            "sha256_cert_fingerprints": [
+               "72:19:FE:D7:AA:64:DB:85:26:CD:EB:22:F2:BC:DA:83:38:0A:04:BC:62:D8:E6:2B:FF:B8:89:FA:E3:74:F9:3F"
+            ]
+        }
+    }
+]
